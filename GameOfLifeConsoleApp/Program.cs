@@ -21,6 +21,8 @@ namespace GameOfLifeConsoleApp
 
             var iFrames = 100;
 
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             while (iFrames > 0)
             {
                 objGOL.PrintStateOfLife();
